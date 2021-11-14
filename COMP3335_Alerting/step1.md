@@ -51,7 +51,7 @@ After the file have been saved, execute the follow command to start up the conta
 ### Login to Grafana
 After start up the container, visit http://localhost:3000/login to login the grafana account.
 As in the YAML we have set 'ADMIN' as username and password. Then it will request you to assign new username and password. Then you can arrived the home page.
-![GrafanaHomePage](/step1-1.png)
+![GrafanaHomePage](/assets/images/step1-1.png)
 
 
 
