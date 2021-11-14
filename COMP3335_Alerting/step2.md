@@ -26,4 +26,6 @@ In the example below, it have shown the total number of post. So, if any new po 
 
 ![GrafanaToolBar](./step2-2.png)
 
+At last, press `Apply` to put it in the dashboard.
 
+![GrafanaToolBar](./step2-3.png)
