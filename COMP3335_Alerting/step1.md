@@ -57,10 +57,10 @@ As in the YAML we have set `'ADMIN'` as username and password. Then it will requ
 **2. Add data source**
 As we need to connect our MySQL and WordPress with Grafana, we need to do the MySQL Connection in Settings.
 
-Press `Add data source` 
+Press `Add data source` to connect the database. 
 ![GrafanaSetting](./step1-2.png)
 
-Select `MySQL` 
+Select `MySQL` to connect the database, it provided many data source like `Oracle`. 
 ![GrafanaSetting](./step1-3.png)
 
 Fill in the information as follow and press `Save & test`. All the information should be according to the YAML file, if no sql document is embedded. For instance, in `docker-compose.yml` the `MYSQL_DATABASE` have set as `wordpress`, the `MYSQL_USER` is `wordpress_user` and the `MYSQL_PASSWORD` is `secret`. 
