@@ -1,13 +1,22 @@
-# Step 4: Grafana Alert
-Grafana alerting allows you to attach rules to your dashboard panels. When you save the dashboard, Grafana extracts the alert rules into a separate alert rule storage and schedules them for evaluation.
+# Step 4: Import MySQL dashboard plugin
 
-The alerting engine publishes some internal metrics about itself. You can read more about how Grafana publishes internal metrics. See also, View alert rules and their current state.
-| Metric Name |     Type    |   Description   |
-| ----------- | ----------- | --------------- |
-| alerting.alerts | gauge  |How many alerts by state|
-| alerting.request_duration_seconds | histogram  |Histogram of requests to the Alerting API|
-|alerting.active_configurations|gauge|The number of active, non default alertmanager configurations for grafana managed alerts|
-|alerting.rule_evaluations_total|	counter|The total number of rule evaluations|
-|alerting.rule_evaluation_failures_total|counter|	The total number of rule evaluation failures|
-|alerting.rule_evaluation_duration_seconds|summary|	The duration for a rule to execute|
-|alerting.rule_group_rules|	gauge|	The number of rules|
+Other then create dashboard by ourself, we can also import some dashboard plugin from https://grafana.com/grafana/dashboards/.
+
+![GrafanadashboardTemplate](./step4-1.png)
+
+In this scenario, we will use `MySQL Overview` as an example.
+1. Copy the ID `7991` to cilpboard.
+![GrafanadashboardTemplate](./step4-2.png)
+
+2. Back to Grafana and press the `import` button.
+![GrafanadashboardTemplate](./step4-3.png)
+
+3. Paste the ID just copy in the row `Import via grafana.com` and press `Load`.
+![GrafanadashboardTemplate](./step4-4.png)
+
+4. Select `Import`. It have provided unique ID for the dashboard. Remember to select the datasource
+![GrafanadashboardTemplate](./step4-5.png)
+
+5. The dashboard is set up without data.
+![GrafanadashboardTemplate](./step4-6.png)
+
