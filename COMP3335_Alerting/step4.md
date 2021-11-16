@@ -1,4 +1,4 @@
-# Step 4: Import MySQL dashboard plugin
+# Import MySQL dashboard plugin
 
 Other then create dashboard by ourself, we can also import some dashboard plugin from https://grafana.com/grafana/dashboards/.
 
