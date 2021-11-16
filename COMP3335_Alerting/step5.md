@@ -1,4 +1,4 @@
-# Step 5: Setting up 2MySQL collector
+# Setting up 2MySQL collector
 After created the dashboard, we need to create the collector to collect the the information.
 
 1. Open a new terminal. Download the script name as `my2_80.sql`.<br>
