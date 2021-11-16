@@ -8,31 +8,31 @@ type:  gauge
 description: 
 
 #### alerting.alerts
-type: gauge
+type: gauge<br>
 description: How many alerts by state
 
 #### alerting.request_duration_seconds
-type: histogram 
+type: histogram <br>
 description: Histogram of requests to the Alerting API
 
 #### alerting.active_configurations
-type: gauge
+type: gauge<br>
 description: The number of active, non default alertmanager configurations for grafana managed alerts
 
 #### alerting.rule_evaluations_total
-type: counter
+type: counter<br>
 description: The total number of rule evaluations
 
 #### alerting.rule_evaluation_failures_total
-type: counter
+type: counter<br>
 description: The total number of rule evaluation failures
 
 #### alerting.rule_evaluation_duration_seconds
-type: summary
+type: summary<br>
 description: The duration for a rule to execute
 
 #### alerting.rule_group_rules
-type: gauge
+type: gauge<br>
 description: The number of rules
 
 
