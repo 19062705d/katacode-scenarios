@@ -7,15 +7,15 @@ In this scenario, you will learn how to do auditing, monitoring and alerting usi
 Auditing, monitoring and alerting are very important to the server and system. Once there are unusual data flow, metric or logs collected, the security team can react to the issue, attack or threats as soon as possible.
 
 There are two type of attacks which are internal attack and external attack. For internal attack likes:
--Installing or running unknown application or script
--Stealing data from the server or database
--Changing the setting of the server or system
+- Installing or running unknown application or script
+- Stealing data from the server or database
+- Changing the setting of the server or system
 These are the attack did by the authorized account in the system.
 
 For external attack likes:
--Brute-force atack
--DDos
--Zero-day attack
+- Brute-force atack
+- DDos
+- Zero-day attack
 These are the attack did from the internet who is not authorized from the organization.
 
 
