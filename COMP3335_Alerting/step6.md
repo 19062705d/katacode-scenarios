@@ -1,11 +1,7 @@
 # Step 6: Grafana Alert
 Grafana alerting allows you to attach rules to your dashboard panels. When you save the dashboard, Grafana extracts the alert rules into a separate alert rule storage and schedules them for evaluation.
 
-The alerting engine publishes some internal metrics about itself. You can read more about how Grafana publishes internal metrics. See also, View alert rules and their current state.
-
-#### alerting.alerts
-type:  gauge
-description: 
+The alerting engine publishes some internal metrics about itself. You can read more about how Grafana publishes internal metrics. See also, View alert rules and their current state. 
 
 #### alerting.alerts
 type: gauge<br>
