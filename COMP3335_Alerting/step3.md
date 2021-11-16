@@ -1,4 +1,4 @@
-# Step 3: Set up the dashboard
+# Set up the dashboard
 
 ### Grafana Dashboard
 Click the new Dashboard link on the right side of the Dashboard picker. You now have a blank Dashboard.
