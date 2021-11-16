@@ -1,4 +1,4 @@
-# Step 7: Create a Grafana alert
+# Create a Grafana alert
 In the Alert tab of the graph panel you can configure how often the alert rule should be evaluated and the conditions that need to be met for the alert to change state and trigger its notifications.
 
 1. Navigate to the panel you want to add or edit an alert rule for, click the title, and then click **Edit**.
