@@ -1,4 +1,4 @@
-# Step 1: Install and set up Grafana
+# Install and set up Grafana
 
 ### Grafana
 Grafana provides a dashboards for viewing metrics. By monitoring the data from our WordPress. For instance it can show the recent query execute and the general log, error log, which can monitor if any invalid user using the WordPress or Database.
