@@ -44,6 +44,9 @@ services:
             ADMIN_PASSWORD: "ADMIN"
 ```
 
+You can use the follow link to download it:
+`wget https://raw.githubusercontent.com/19062705d/katacoda-scenarios/master/COMP3335_Alerting/docker-compose.yml`
+
 After the file have been saved, execute the follow command to start up the container.
 
 > `docker-compose up`{{execute}}
